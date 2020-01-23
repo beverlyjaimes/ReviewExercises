@@ -7,6 +7,10 @@
 
 
 
-jQuery('.box').click(function () {
+$('.box').click(function () {
     alert('you clicked me!')
+});
+
+$('.box').hover(function () {
+        alert('you can click me!')
 });
