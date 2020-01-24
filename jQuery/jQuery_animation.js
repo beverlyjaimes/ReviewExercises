@@ -6,4 +6,8 @@
 
 //the same can be done with less code by stringing
 
- $('#flashMessage').hide().slideDown(1000).delay(3000).slideUp();
+ $('#flashMessage')
+     .hide()
+     .slideDown(1000)
+     .delay(3000)
+     .slideUp();
