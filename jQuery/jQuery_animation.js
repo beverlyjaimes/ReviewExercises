@@ -13,7 +13,12 @@
      .slideUp();
 
   const title = "My First Blog Post";
-  const content = "This is my first post!";
+  const content = "<strong>This is my first post!</strong>";
 
   $('#blogTitlePreview').text(title);
-  $('#blogContentPreview').text(content);
+  // $('#blogContentPreview').text(content);
+
+  //you can also save text but variables are cleaner
+$('#blogContentPreview').html(content);
+
+
