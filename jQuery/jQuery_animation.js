@@ -16,3 +16,4 @@
   const content = "This is my first post!";
 
   $('#blogTitlePreview').text(title);
+  $('#blogContentPreview').text(content);
