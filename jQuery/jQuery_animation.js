@@ -11,3 +11,8 @@
      .slideDown(1000)
      .delay(3000)
      .slideUp();
+
+  const title = "My First Blog Post";
+  const content = "This is my first post!";
+
+  $('#blogTitlePreview').text(title);
