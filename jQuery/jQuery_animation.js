@@ -24,6 +24,10 @@
 $('#previewButton').click(function () {
 const title = $('#blogTitleInput').val();
  console.log(title);
+ const content = $('#blogContentInput').val();
+ console.log(content);
 });
+
+
 
 
