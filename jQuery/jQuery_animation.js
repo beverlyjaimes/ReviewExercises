@@ -28,7 +28,9 @@ const title = $('#blogTitleInput').val();
  console.log(content);
 });
 
-
+$('.label').hover(function () {
+ alert('Include post here!')
+});
 
 
 
