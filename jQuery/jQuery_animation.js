@@ -20,6 +20,8 @@
 //
 //   //you can also save text but variables are cleaner
 // $('#blogContentPreview').html(content);
+//moved hide outside of click handler
+$('#flashMessage').hide();
 
 $('#previewButton').click(function () {
 const title = $('#blogTitleInput').val();
@@ -32,16 +34,11 @@ const title = $('#blogTitleInput').val();
 
  //message will display when button is clicked
  $('#flashMessage')
-     .hide()
      .slideDown(1000)
      .delay(3000)
      .slideUp();
-//
-});
 
-// $('.label').hover(function () {
-//  alert('Include post here!')
-// });
+});
 
 
 
