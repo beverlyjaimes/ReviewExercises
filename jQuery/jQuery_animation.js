@@ -27,7 +27,7 @@ const title = $('#blogTitleInput').val();
  const content = $('#blogContentInput').val();
  console.log(content);
 
- $('#blogTitleInput').text(title);
+ $('#blogTitlePreview').text(title);
  $('#blogContentPreview').html(content);
 });
 
