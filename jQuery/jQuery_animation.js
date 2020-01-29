@@ -29,6 +29,14 @@ const title = $('#blogTitleInput').val();
 
  $('#blogTitlePreview').text(title);
  $('#blogContentPreview').html(content);
+
+ //message will display when button is clicked
+ $('#flashMessage')
+     .hide()
+     .slideDown(1000)
+     .delay(3000)
+     .slideUp();
+//
 });
 
 // $('.label').hover(function () {
