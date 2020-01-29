@@ -26,11 +26,14 @@ const title = $('#blogTitleInput').val();
  console.log(title);
  const content = $('#blogContentInput').val();
  console.log(content);
+
+ $('#blogTitleInput').text(title);
+ $('#blogContentPreview').html(content);
 });
 
-$('.label').hover(function () {
- alert('Include post here!')
-});
+// $('.label').hover(function () {
+//  alert('Include post here!')
+// });
 
 
 
