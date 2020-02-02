@@ -1,4 +1,5 @@
 //create reveal spoiler button
+const $button = $('<button>Reveal Spoiler</button>');
 //append to web page
 
 
