@@ -1,10 +1,9 @@
-
+// //    add event propagation
 $('.spoiler').on('click' , 'button', function () {
 //if user clicks on this button fire the function
     $('.spoiler span').show();
 //     // and hide the button
     $('.spoiler button').hide();
-// //    add event propagation
 });
 
 //create reveal spoiler button
