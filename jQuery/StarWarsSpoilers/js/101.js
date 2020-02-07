@@ -8,3 +8,12 @@ fruits.reverse();
 console.log(fruits);
 fruits.sort().reverse();
 console.log(fruits);
+
+// Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
+
+const isOdd = function(num) {
+    if (num % 2 !== 0) {
+        return true;
+    }
+};
+console.log(isOdd(5));
