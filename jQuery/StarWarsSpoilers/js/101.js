@@ -25,5 +25,14 @@ const shortestString = (arr) => {
         return currentWord.length < shortestWord.length ? currentWord : shortestWord;
     }, arr[0]);
     return shortest;
-}
+};
 console.log(shortestString(arr));
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var evens = [];
+for (var i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 === 0) {
+        evens.push(numbers[i]);
+    }
+}
+console.log(evens)
