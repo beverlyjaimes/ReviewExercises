@@ -1,6 +1,9 @@
 // //    add event propagation
-$('.spoiler').on('click' , 'button', function () {
+$('.spoiler').on('click' , 'button', function (event) {
 //if user clicks on this button fire the function
+//    .target shows specific button that was clicked
+    console.log(event.target);
+
     $('.spoiler span').show();
 //     // and hide the button
     $('.spoiler button').hide();
