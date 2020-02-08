@@ -3,11 +3,9 @@ $('.spoiler').on('click' , 'button', function (event) {
 //if user clicks on this button fire the function
 //    .target shows specific button that was clicked
     console.log(event.target);
-
-    $('.spoiler span').show();
-//     // and hide the button
-//    event or evt says hide this specific button that was clicked
-    $('event.target').hide();
+  $(event.target).prev().show();
+//    event/evt/e says hide this specific button that was clicked
+    $(event.target).hide();
 });
 
 //create reveal spoiler button
