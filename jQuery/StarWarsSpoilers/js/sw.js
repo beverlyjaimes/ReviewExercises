@@ -6,7 +6,8 @@ $('.spoiler').on('click' , 'button', function (event) {
 
     $('.spoiler span').show();
 //     // and hide the button
-    $('.spoiler button').hide();
+//    event or evt says hide this specific button that was clicked
+    $('event.target').hide();
 });
 
 //create reveal spoiler button
